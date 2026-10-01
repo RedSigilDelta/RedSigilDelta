@@ -179,12 +179,12 @@ GitHub → RedSigilDelta
 
 ---
 
-Research deeply.
+🔬Research deeply.
 
-Experiment freely.
+🧪Experiment freely.
 
-Build deliberately.
+🛠️Build deliberately.
 
-Document everything.
+📝Document everything.
 
-RedSigil∆ / RedSigilLabs
+🔺RedSigil∆ / RedSigilLabs
