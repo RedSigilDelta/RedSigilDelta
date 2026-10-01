@@ -16,18 +16,18 @@ Many of my projects begin with a simple question:
 
 📚 Knowledge & Research
 
-Termux Forge
+Termux Forge:
 A comprehensive knowledge and research project covering Termux, Android, Linux, terminal environments, tooling, guides, and future development resources.
 
-Android Forge
+Android Forge:
 A broader Android development, system research, and tooling ecosystem focused on understanding Android's capabilities, limitations, architecture, and development possibilities.
 
-Gaming Forge
+Android Gaming Forge:
 Research and tooling focused on Android/Linux gaming and related technologies.
 
 🖥️ Terminal & System
 
-Termux-Ghostty
+Termux-Ghostty:
 An Android-native terminal project built around Ghostty technology, exploring persistent terminal sessions, multiple Android presentation modes, native window management, and deeper Termux ecosystem integration.
 
 Terminal Session
@@ -40,23 +40,23 @@ Terminal Session
 
 The goal is for one persistent terminal session to move between presentations rather than recreating the underlying terminal environment.
 
-ADB Modules App
+ADB Modules App:
 An Android system utility focused on ADB-based module management, system tooling, and research into Android's capabilities and limitations.
 
-Taskbar Modernization
+Taskbar Modernization:
 A project exploring a modern Android desktop/taskbar experience and improved desktop-style workflows on Android.
 
-Touchless Gesture Control
+Touchless Gesture Control:
 An Android interaction project exploring gesture-based control and touchless device interaction.
 
 📄 Developer Tools
 
-Pandoc Studio for Android
+Pandoc Studio for Android:
 A planned Android application focused on Pandoc-based document conversion and workflows on Android, including research into Pandoc WASM and related technologies.
 
 🎮 Games
 
-Standalone 3D Fantasy RPG
+Standalone 3D Fantasy RPG:
 An independent personal game project focused on building a standalone 3D fantasy RPG.
 
 This project remains independent from the other RedSigil∆ projects.
@@ -103,16 +103,16 @@ I strongly prefer open source and welcome contributions when they meaningfully i
 
 🛠️ Technology & Tooling
 
-Android
+Android:
 "Kotlin" · "Java" · "Gradle" · "Android SDK" · "NDK" · "JNI" · "ADB"
 
-Linux & Termux
+Linux & Termux:
 "Linux" · "Termux" · "Bash" · "Git" · "CLI"
 
-Native & Terminal
+Native & Terminal:
 "C/C++" · "Ghostty" · "libghostty-vt" · "PTY" · "JNI"
 
-Documentation & Workflow
+Documentation & Workflow:
 "Markdown" · "Pandoc" · "EPUB" · "WASM" · "GitHub" · "OpenCode" · "MasterRef"
 
 ---
