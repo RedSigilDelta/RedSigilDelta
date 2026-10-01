@@ -49,7 +49,7 @@ Terminal Session
 I approach projects through research, experimentation, understanding, building, and iteration:
 
 ```text
-Curiosity → Research → Investigation → Experimentation → Understanding 
+Curiosity → Research → Investigation → Experimentation → Understanding
    ↓
 Architecture → Build → Test & Polish → Document → Learn
 ```
@@ -94,7 +94,7 @@ RedSigil∆
 │   └── Pandoc Studio for Android
 │
 └── Gaming
-    ├── Gaming Forge
+    ├── Android Gaming Forge
     └── Standalone 3D Fantasy RPG
 ```
 
@@ -131,6 +131,5 @@ One possible future direction is an open-source Android home-screen launcher ins
 🧪 Experiment freely.
 🛠️ Build deliberately.
 📝 Document everything.
-
 🔺 RedSigil∆ / RedSigilLabs
 ```
