@@ -30,9 +30,7 @@ Terminal Session
       └── Future Presentations
 ```
 
-> *The goal is for one persistent terminal session to move between presentations rather than recreating the underlying terminal environment.*
-
-* **ADB Modules App:** An Android system utility focused on ADB-based module management, system tooling, and research into Android's capabilities and limitations.
+> *The goal is for one persistent terminal session to move between presentations rather than recreating the underlying terminal environment.
 * **Taskbar Modernization:** A project exploring a modern Android desktop/taskbar experience and improved desktop-style workflows on Android.
 * **Touchless Gesture Control:** An Android interaction project exploring gesture-based control and touchless device interaction.
 
@@ -86,7 +84,6 @@ RedSigil∆
 │
 ├── Android
 │   ├── Android Forge
-│   ├── ADB Modules App
 │   ├── Taskbar Modernization
 │   └── Touchless Gesture Control
 │
