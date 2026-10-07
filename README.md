@@ -1,132 +1,108 @@
+<div align="center">
+
 # RedSigil∆
 
-> **Research deeply. Experiment freely. Build deliberately. Document everything.**
+**Research deeply. Experiment freely. Build deliberately. Document everything.**
 
-I'm **RedSigil∆** (**RedSigilDelta**), an independent developer, enthusiast, learner, and experimenter exploring Android, Termux/Linux, system technology, terminal environments, developer tools, and game development.
+*Independent developer · Android explorer · Technical writer · Game creator · Worldbuilder*
 
-I enjoy figuring things out, understanding how technology works, experimenting with what is possible, and building things that are useful or enjoyable.
+[Featured projects](#-featured-projects) · [How I build](#-how-i-build) · [Beyond development](#-outside-of-development) · [Connect](#-connect)
 
-> *“Is this possible?”*
-
----
-
-## 🧭 Projects
-
-### 📚 Knowledge & Research
-* **Termux Forge:** A comprehensive knowledge and research project covering Termux, Android, Linux, terminal environments, tooling, guides, and future development resources.
-* **Android Forge:** A broader Android development, system research, and tooling ecosystem focused on understanding Android's capabilities, limitations, architecture, and development possibilities.
-* **Android Gaming Forge:** Research and tooling focused on Android/Linux gaming and related technologies.
-
-### 🖥️ Terminal & System
-* **Termux-Ghostty:** An Android-native terminal project built around Ghostty technology, exploring persistent terminal sessions, multiple Android presentation modes, native window management, and deeper Termux ecosystem integration.
-
-```text
-Terminal Session
-      │
-      ├── Normal Terminal
-      ├── Bubble
-      ├── Floating Window
-      ├── Android Multi-Window
-      └── Future Presentations
-```
-
-> *The goal is for one persistent terminal session to move between presentations rather than recreating the underlying terminal environment.
-* **Taskbar Modernization:** A project exploring a modern Android desktop/taskbar experience and improved desktop-style workflows on Android.
-* **Touchless Gesture Control:** An Android interaction project exploring gesture-based control and touchless device interaction.
-
-### 📄 Developer Tools
-* **Pandoc Studio for Android:** A planned Android application focused on Pandoc-based document conversion and workflows on Android, including research into Pandoc WASM and related technologies.
-
-### 🎮 Games
-* **Standalone 3D Fantasy RPG:** An independent personal game project focused on building a standalone 3D fantasy RPG *(remains independent from other RedSigil∆ projects)*.
+</div>
 
 ---
 
-## 🔬 Development Approach
+## 👋 About me
 
-I approach projects through research, experimentation, understanding, building, and iteration:
+I'm **RedSigil∆** (`RedSigilDelta`). I like understanding how technology works, testing what's possible, and turning the discoveries into apps, reference books, games, and creative projects.
 
-```text
-Curiosity → Research → Investigation → Experimentation → Understanding
-   ↓
-Architecture → Build → Test & Polish → Document → Learn
-```
+Much of my research and development happens **on an Android phone**, using Termux, Linux tools, Git, and a lot of documentation. Some projects are practical; others start with one question: *“Is this possible?”*
 
-For larger projects, a **MasterRef** acts as a source of truth for the project's important research, requirements, architecture, decisions, limitations, testing, and future work.
+## 🚀 Featured projects
 
-> *Figure out why it broke, fix it, or find another way.*
+These are the projects that best represent what I'm working toward. They range from active research and development to long-term creative plans—not all are released or publicly hosted.
 
-I value both the technical foundation and the final experience. Projects should be useful, reliable, understandable, and polished without unnecessary complexity. I strongly prefer open source and welcome contributions when they meaningfully improve a project or fix a problem.
+### 📚 RedSigil∆ Forge Collection
+
+Four in-depth, research-driven technical books with practical examples, careful verification, and Markdown-to-EPUB publishing workflows:
+
+**[Termux Forge](https://github.com/RedSigilDelta/termux-forge)** · **Android Forge** · **Android Gaming Forge** · **ADB Forge**
+
+### 🖥️ [Termux-Ghostty](https://github.com/RedSigilDelta/termux-ghostty)
+
+An experimental Android terminal fork exploring Ghostty-backed terminal technology, persistent sessions, and flexible Android workflows. Based on the [upstream project](https://github.com/mrndstvndv/termux-ghostty).
+
+### ✋ [Touchless Gesture Control](https://github.com/RedSigilDelta/Touchless-Gesture-Control)
+
+Exploring hand-gesture detection and camera-based, touchless interaction on Android, with an emphasis on real-device behavior.
+
+### 🔤 RedSigil∆ Type System
+
+An original type-design project spanning expressive display lettering, friendly handwritten-inspired everyday typography, and technical monospace needs. Glyph quality, spacing, OpenType behavior, and device verification all matter.
+
+### 🌙 RedSigil∆ Fantasy Universe
+
+An original fantasy setting being developed through deep worldbuilding and a **Bible-centered canon system**. It is intended to support a seven-book epic fantasy series and, later, an original tabletop RPG—not a D&D adaptation.
+
+### 🎮 Project C — Fantasy RPG
+
+A standalone 3D fantasy RPG project with its own game-design direction, planned to respect the Fantasy Universe's shared canon. Universe readiness comes before full adaptation work.
+
+## 🧩 Other projects
+
+- 🖥️ **[Taskbar Modernization](https://github.com/RedSigilDelta/Taskbar)** — Rethinking Android desktop-style multitasking.
+- 🤼 **Open-source Android Wrestling Game** — Exploring deep, console-style wrestling systems for native Android.
+- 📄 **Pandoc Studio for Android** — A planned, WebAssembly-based document conversion workflow.
+- 📖 **Forge Library** — A planned Android reading hub for all four Forge books.
+- 📸 **[PixelScreenshots integration](https://github.com/AKS-Labs/PixelScreenshots)** — Investigating capture features for the upstream project; not a released integration.
+- 😀 **Personal Emoji App** — Exploring a customized Android emoji experience.
+
+## 🔬 How I build
+
+**Investigate → Design → Build or Write → Verify → Document → Refine.**
+
+I use different sources of truth for different kinds of work:
+
+- **Apps, games, fonts, and technical investigations:** a **MasterRef** when useful, supported by plans, architecture, decisions, and test records.
+- **Forge books:** the **reader-facing manuscript is canonical**, backed by research, audits, and publishing checks.
+- **Fiction and shared universes:** **Universe, Series, Book, and adaptation Bibles** govern canon and continuity. My Fantasy Universe uses Bibles rather than a MasterRef.
+
+Across these projects, I maintain reusable **App, Game, Forge Book, Fiction & Universe, and Font Standards**. Shared **governance, licensing, QA, and the RedSigil∆ Complete Brand System** help keep the work consistent without making every project identical. The **Forge Publishing System** lives inside the Brand System.
+
+I value meaningful depth, tested claims, clear limitations, and documentation that survives the next phase of work.
+
+## 🛠️ Toolbox
+
+**Android:** Kotlin · Java · Android SDK · Gradle · ADB  
+**Terminal & systems:** Termux · Linux/PRoot · Bash · Git · C/C++ · NDK/JNI  
+**Writing & workflows:** Markdown · Pandoc · EPUB · GitHub · OpenCode
+
+*Tools I use, study, or experiment with—not a claim of expertise in everything listed.*
+
+## 🌲 Outside of development
+
+When I'm not researching or building something, I enjoy:
+
+- 🗡️ RPGs, shooters, action, adventure, and platform games
+- 🕹️ Classic games, emulation, and fan-made game projects
+- 📚 Reading, especially fantasy and fictional worlds
+- 🎵 Music and 🌲 spending time outdoors
+
+## 🔗 Connect
+
+**[GitHub profile](https://github.com/RedSigilDelta)** · **[Public repositories](https://github.com/RedSigilDelta?tab=repositories)**
+
+Public repositories have their own status, licensing, and contribution guidance. Some projects are still private, exploratory, or at the planning stage.
 
 ---
 
-## 🛠️ Technology & Tooling
+<div align="center">
 
-| Domain | Tech Stack |
-| :--- | :--- |
-| **Android** | `Kotlin` · `Java` · `Gradle` · `Android SDK` · `NDK` · `JNI` · `ADB` |
-| **Linux & Termux** | `Linux` · `Termux` · `Bash` · `Git` · `CLI` |
-| **Native & Terminal** | `C/C++` · `Ghostty` · `libghostty-vt` · `PTY` · `JNI` |
-| **Workflow & Docs** | `Markdown` · `Pandoc` · `EPUB` · `WASM` · `GitHub` · `OpenCode` · `MasterRef` |
+🔬 **Research deeply.**  
+🧪 **Experiment freely.**  
+🛠️ **Build deliberately.**  
+📝 **Document everything.**
 
----
+🔺 **RedSigil∆ / RedSigilLabs**
 
-## 🌐 The RedSigil∆ Ecosystem
-
-The long-term vision is a collection of independent projects that can share knowledge, research, and tooling where appropriate.
-
-```text
-RedSigil∆
-│
-├── Termux / Linux
-│   ├── Termux Forge
-│   └── Termux-Ghostty
-│
-├── Android
-│   ├── Android Forge
-│   ├── Taskbar Modernization
-│   └── Touchless Gesture Control
-│
-├── Developer Tools
-│   └── Pandoc Studio for Android
-│
-└── Gaming
-    ├── Android Gaming Forge
-    └── Standalone 3D Fantasy RPG
-```
-
----
-
-## 🎯 Direction
-
-I'm continuing to develop my skills in software development, Android applications, games, system technology, and technical writing. 
-
-One possible future direction is an open-source Android home-screen launcher inspired by smart launcher applications and focused on customization and useful interaction.
-
-> *“Keep learning, keep experimenting, and keep building things worth using.”*
-
----
-
-## 🎮 Outside of Development
-
-- 🗡️ RPGs, shooters, and adventure games
-- 🕹️ Classic games and emulation
-- 🎮 Fan-made native versions of classic games
-- 📚 Reading
-- 🎵 Listening to music
-- 🌲 Spending time in nature
-
----
-
-## 📊 Connect & Find Me
-
-- **GitHub:** [@RedSigilDelta](https://github.com/RedSigilDelta)
-- **Organization:** RedSigilLabs
-
-```text
-🔬 Research deeply.
-🧪 Experiment freely.
-🛠️ Build deliberately.
-📝 Document everything.
-🔺 RedSigil∆ / RedSigilLabs
-```
+</div>
